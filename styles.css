@@ -299,24 +299,25 @@ pre {
   }
 
   .property-container {
-    width: 425px;
-    height: 970px;
+    width: 420px;
+    height: 700px;
     background-position: 66%;
+    margin: 0 auto;
   }
 
   .property {
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 160px;
     top: 100px;
-    padding: 25px;
+    padding: 10px;
   }
 
   .h2a {
-    font-size: 38px;
+    font-size: 30px;
   }
 
   pre {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .future-section {
@@ -325,7 +326,6 @@ pre {
     height: 552px;
     padding: 0px 16px;
     margin: 30px auto;
-    margin-top: 80px;
   }
 
   .h2b {
@@ -384,16 +384,16 @@ pre {
 /* Small mobile */
 @media (max-width: 375px) {
   .header-container {
-    width: 375px;
+    width: 350px;
   }
 
   .property-container {
-    width: 375px;
+    width: 350px;
     background-position: 67%;
   }
 
   .property {
-    width: 365px;
+    height: 140px;
   }
 
   .feature-section {
@@ -401,14 +401,14 @@ pre {
   }
 
   .feature-section .text-part {
-    width: 360px;
+    width: 350px;
   }
 
   .benefits {
-    width: 360px;
+    width: 340px;
   }
 
   .benefits .items {
-    width: 360px;
+    width: 340px;
   }
 }

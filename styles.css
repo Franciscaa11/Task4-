@@ -192,7 +192,7 @@ pre {
 
 /* Tablet screen */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .h2a {
     font-size: 40px;
   }
@@ -328,6 +328,17 @@ pre {
     margin-top: 80px;
   }
 
+  .h2b {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .future-text p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
   .girl_on_blue {
     border-radius: 0 20px 0 0;
   }
@@ -367,5 +378,37 @@ pre {
   .benefits .items {
     width: 300px;
     margin: 0 auto;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 375px) {
+  .header-container {
+    width: 375px;
+  }
+
+  .property-container {
+    width: 375px;
+    background-position: 67%;
+  }
+
+  .property {
+    width: 365px;
+  }
+
+  .feature-section {
+    width: 370px;
+  }
+
+  .feature-section .text-part {
+    width: 360px;
+  }
+
+  .benefits {
+    width: 360px;
+  }
+
+  .benefits .items {
+    width: 360px;
   }
 }
